@@ -3,6 +3,7 @@ import Hero from "./components/sections/Hero";
 import About from "./components/sections/About";
 import MissionVision from "./components/sections/MissionVision";
 import CoreValues from "./components/sections/CoreValues";
+import OurStory from "./components/sections/OurStory";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <About />
         <MissionVision />
         <CoreValues/>
+        <OurStory/>
       </main>
     </div>
   );
