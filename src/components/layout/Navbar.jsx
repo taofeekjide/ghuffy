@@ -10,18 +10,7 @@ function Navbar() {
   };
 
   return (
-    <header
-      className="
-        fixed inset-x-0 top-0 z-50
-
-        border-b border-white/[0.06]
-
-        bg-ghuffy-forest/75
-        backdrop-blur-xl
-
-        supports-[backdrop-filter]:bg-ghuffy-forest/60
-      "
-    >
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-white/[0.06] bg-ghuffy-forest/75 backdrop-blur-xl supports-[backdrop-filter]:bg-ghuffy-forest/60">
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           {/* Ghuffy brands */}
@@ -39,9 +28,7 @@ function Navbar() {
               {/* Littles glow */}
               <div className="absolute inset-0 rounded-xl bg-ghuffy-lime/10 blur-xl" />
 
-              <span className="relative bg-gradient-to-br from-ghuffy-lime to-ghuffy-emerald bg-clip-text text-xl font-black text-transparent">
-                G
-              </span>
+              <img src="Ghuffy_logo.jpg" alt="Ghuffy logo" />
             </div>
 
             {/* Brand name */}
