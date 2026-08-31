@@ -14,6 +14,7 @@ export const ghuffyBrand = {
     facebook: "https://facebook.com/share/1GPnuRYQ13",
     tiktok: "https://tiktok.com/@ghuffysubbrands",
     whatsapp: "https://wa.me/message/VJIX6RUFYP32N1",
+    whatsappCatalogue: "https://wa.me/c/2347052975224",
   },
 };
 
