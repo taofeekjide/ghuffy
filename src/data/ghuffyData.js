@@ -10,10 +10,10 @@ export const ghuffyBrand = {
   },
 
   social: {
-    instagram: "https://instagram.com/ghuffy_household_store",
-    facebook: "https://facebook.com/ghuffybrands",
-    tiktok: "https://tiktok.com/@ghuffybrands",
-    whatsapp: "https://wa.me/2347052975224",
+    instagram: "https://instagram.com/ghuffy",
+    facebook: "https://facebook.com/share/1GPnuRYQ13",
+    tiktok: "https://tiktok.com/@ghuffysubbrands",
+    whatsapp: "https://wa.me/message/VJIX6RUFYP32N1",
   },
 };
 
