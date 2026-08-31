@@ -2,6 +2,7 @@ import Navbar from "./components/layout/Navbar";
 import Hero from "./components/sections/Hero";
 import About from "./components/sections/About";
 import MissionVision from "./components/sections/MissionVision";
+import CoreValues from "./components/sections/CoreValues";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Hero />
         <About />
         <MissionVision />
+        <CoreValues/>
       </main>
     </div>
   );

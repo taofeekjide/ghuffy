@@ -83,6 +83,7 @@ export const coreValues = [
   {
     title: "Excellence",
     description: "We hold ourselves to high standards in everything we do.",
+    icon: "excellence",
   },
   {
     title: "Customer First",
