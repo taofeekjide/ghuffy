@@ -68,3 +68,32 @@ export const ecosystemItems = [
     href: "https://www.instagram.com/ghuffy_styles",
   },
 ];
+
+export const coreValues = [
+  {
+    title: "Quality",
+    description: "We prioritize quality in every product and service we offer.",
+    icon: "quality",
+  },
+  {
+    title: "Integrity",
+    description: "We do business with honesty, transparency, and sincerity.",
+    icon: "integrity",
+  },
+  {
+    title: "Excellence",
+    description: "We hold ourselves to high standards in everything we do.",
+  },
+  {
+    title: "Customer First",
+    description:
+      "We create experiences built around convenience, care, and satisfaction.",
+    icon: "customer",
+  },
+  {
+    title: "Growth",
+    description:
+      "We continuously evolve, innovate, and create opportunities to serve better.",
+    icon: "growth",
+  },
+];
