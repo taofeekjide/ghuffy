@@ -6,6 +6,7 @@ import CoreValues from "./components/sections/CoreValues";
 import OurStory from "./components/sections/OurStory";
 import Ecosystem from "./components/sections/Ecosystem";
 import Partnership from "./components/sections/Partnership";
+import Footer from "./components/layout/Footer";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
         <Ecosystem/>
         <Partnership/>
       </main>
+
+      <Footer/>
     </div>
   );
 }
