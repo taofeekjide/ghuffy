@@ -44,7 +44,7 @@ function Footer() {
               aria-label="GHUFFY home"
             >
               <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-ghuffy-lime/20 bg-ghuffy-lime/[0.05]">
-                <span className="text-sm font-black text-ghuffy-lime">G</span>
+                <img src="Ghuffy_logo.jpg" alt="Ghuffy logo" className="rounded-xl" />
               </div>
 
               <span className="text-lg font-black tracking-[0.16em] text-ghuffy-white">
