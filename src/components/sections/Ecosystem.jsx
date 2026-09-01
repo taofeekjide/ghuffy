@@ -128,7 +128,7 @@ function Ecosystem() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Click to Explore
+                      Click Here to Explore
                       <ArrowUpRight size={16} />
                     </a>
                   </div>
