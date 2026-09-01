@@ -82,12 +82,10 @@ function OurStory() {
                   markets we serve.
                 </p>
 
-                <p>
-                  GHUFFY - thoughtfully built, purposefully growing.{" "}
-                  <div className="font-semibold text-ghuffy-white">
-                    Elevate every day and live GHUFFY.
-                  </div>
-                </p>
+                <p>GHUFFY - thoughtfully built, purposefully growing. </p>
+                <span className="font-semibold text-ghuffy-white">
+                  Elevate every day and live GHUFFY.
+                </span>
               </div>
 
               <div className="mt-10 border-t border-white/[0.07] pt-7">
