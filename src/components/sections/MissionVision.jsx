@@ -21,7 +21,7 @@ const missionVision = [
 
 function MissionVision() {
   return (
-    <section className="relative py-24 sm:py-32">
+    <section className="relative py-24 sm:py-32" id="mission">
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
         <SectionHeader
           eyebrow="Mission & Vision"
