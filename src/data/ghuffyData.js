@@ -47,6 +47,10 @@ export const ecosystemItems = [
     name: "GHUFFY HOUSEHOLD STORE",
     shortName: "Household Store",
     description: "Supplying Homes & Businesses with Excellence",
+    images: [
+      "/images/ecosystem/household-1.JPG",
+      "/images/ecosystem/household-2.JPG",
+    ],
     productsServices: [
       "Household Essentials",
       "Kitchen & Appliances",
@@ -61,13 +65,18 @@ export const ecosystemItems = [
     name: "GHUFFY BEAUTY HOME",
     shortName: "Beauty Home",
     description: "Beauty for Queens, Right at Home.",
+    images: [
+      "/images/ecosystem/beauty-1.JPG",
+      "/images/ecosystem/beauty-2.JPG",
+      "/images/ecosystem/beauty-3.JPG",
+    ],
     productsServices: [
       "Henna",
       "Waxing",
       "Facials",
       "Pedicure & Manicure",
       "Bridal & Event Beauty",
-      "Body Polishing"
+      "Body Polishing",
     ],
     delivery: "We Come to You Anywhere",
     destination: "https://www.instagram.com/ghuffy_beauty_home",
@@ -77,6 +86,10 @@ export const ecosystemItems = [
     name: "GHUFFY PRODUCTS",
     shortName: "Products",
     description: "Clean Better, Look Better, Feel Better",
+    images: [
+      "/images/ecosystem/products-1.jpg",
+      "/images/ecosystem/products-2.jpg",
+    ],
     productsServices: [
       "Purezza Dishwashing Liquid",
       "Purezza Hand Wash",
@@ -90,8 +103,9 @@ export const ecosystemItems = [
     name: "GHUFFY STYLES",
     shortName: "Styles",
     description: "Style to Match Your Smile.",
-    productsServices: ["LOADING..."],
-    delivery: "LOADING...",
+    images: [],
+    productsServices: ["COMING SOON..."],
+    delivery: "COMING SOON...",
     destination: "https://www.instagram.com/ghuffy_styles",
   },
 ];

@@ -15,6 +15,42 @@ import { ecosystemItems } from "../../data/ghuffyData";
 
 const ecosystemIcons = [Home, Sparkles, ShoppingBag, Shirt];
 
+function EcosystemImageGallery({ images = [], name }) {
+  if (!images.length) return null;
+
+  const imageCount = images.length;
+
+  return (
+    <div
+      className={`relative mb-8 overflow-hidden rounded-2xl border border-white/[0.08] bg-black/20 ${imageCount === 1 ? "aspect-[16/9]" : "grid aspect-[16/9] grid-cols-2 gap-1.5"}`}
+    >
+      {images.map((image, index) => (
+        <div
+          key={image}
+          className={`group/image relative overflow-hidden ${imageCount === 3 && index === 0 ? "row-span-2" : ""}`}
+        >
+          <img
+            src={image}
+            alt={`${name} ${index + 1}`}
+            className="h-full w-full object-cover transition-transform duration-700 group-hover/image:scale-105"
+            loading="lazy"
+          />
+
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ghuffy-forest/40 via-transparent to-transparent opacity-70" />
+
+          <div className="pointer-events-none absolute inset-0 bg-ghuffy-lime/[0.04] opacity-0 transition-opacity duration-500 group-hover/image:opacity-100" />
+        </div>
+      ))}
+
+      {imageCount > 1 && (
+        <div className="pointer-events-none absolute bottom-3 right-3 rounded-full border border-white/10 bg-black/40 px-2.5 py-1 text-[10px] font-bold uppercase tracking-[0.12em] text-white/80 backdrop-blur-md">
+          {imageCount} Photos
+        </div>
+      )}
+    </div>
+  );
+}
+
 function Ecosystem() {
   return (
     <section id="ecosystem" className="relative overflow-hidden py-24 sm:py-32">
@@ -40,7 +76,7 @@ function Ecosystem() {
             return (
               <GlassCard
                 key={item.name}
-                className="group relative overflow-hidden p-7 sm:p-9 lg:p-10"
+                className="group relative overflow-hidden p-5 sm:p-7 lg:p-9"
               >
                 {/* Large background number */}
                 <span className="pointer-events-none absolute -right-3 -top-8 select-none text-[10rem] font-black leading-none tracking-[-0.1em] text-white/[0.025] transition-transform duration-700 group-hover:translate-x-3 group-hover:-translate-y-2 sm:text-[12rem]">
@@ -51,6 +87,12 @@ function Ecosystem() {
                 <div className="pointer-events-none absolute -bottom-24 -right-24 h-64 w-64 rounded-full bg-ghuffy-lime/[0.05] blur-[90px] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
 
                 <div className="relative flex h-full flex-col">
+                  {/* Image Gallery */}
+                  <EcosystemImageGallery
+                    images={item.images}
+                    name={item.name}
+                  />
+
                   {/* Card header */}
                   <div className="flex items-start justify-between">
                     <span className="text-xs font-black tracking-[0.25em] text-ghuffy-lime">
@@ -63,7 +105,7 @@ function Ecosystem() {
                   </div>
 
                   {/* Main content */}
-                  <div className="mt-10">
+                  <div className="mt-8">
                     <p className="text-xs font-semibold uppercase tracking-[0.2em] text-ghuffy-muted">
                       GHUFFY
                     </p>
