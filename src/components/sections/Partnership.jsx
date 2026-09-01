@@ -75,9 +75,19 @@ function Partnership() {
                 href="https://wa.me/2347052975224?text=Hello%20GHUFFY%2C%20I%20am%20interested%20in%20partnership%20opportunities."
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-8 inline-flex items-center gap-3 rounded-full bg-ghuffy-lime px-6 py-3.5 text-sm font-black text-ghuffy-forest transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(190,242,100,0.18)]"
+                className="mt-8 inline-flex items-center gap-3 rounded-full bg-ghuffy-lime px-6 py-3.5 text-sm font-black text-ghuffy-forest transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(190,242,100,0.18)] mr-5"
               >
-                Start a Conversation
+                WhatsApp
+                <ArrowUpRight size={17} />
+              </a>
+
+              <a
+                href="mailto:ghuffysubbrands@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-8 inline-flex items-center gap-3 rounded-full bg-ghuffy-forest px-6 py-3.5 text-sm font-black text-ghuffy-lime transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(190,242,100,0.18)]"
+              >
+                Email
                 <ArrowUpRight size={17} />
               </a>
             </div>

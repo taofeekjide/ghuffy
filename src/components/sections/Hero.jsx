@@ -120,6 +120,26 @@ function Hero() {
             </div>
 
             <div
+              className=" mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap
+              "
+            >
+              <p>Our Socials:</p>
+              <p>
+                <a href="https://www.instagram.com/ghuffy/">
+                  <span className="text-ghuffy-lime">Instagram</span>
+                </a>
+                <span className="mx-2">|</span>
+                <a href="https://www.tiktok.com/@ghuffysubbrands">
+                  <span className="text-ghuffy-lime">Tiktok</span>
+                </a>
+                <span className="mx-2">|</span>
+                <a href="https://www.facebook.com/share/1GPnuRYQ13/">
+                  <span className="text-ghuffy-lime">Facebook</span>
+                </a>
+              </p>
+            </div>
+
+            <div
               className="
               mt-12 grid max-w-xl grid-cols-1 gap-5 sm:grid-cols-3
               "
