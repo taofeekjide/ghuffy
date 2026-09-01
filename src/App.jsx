@@ -4,6 +4,7 @@ import About from "./components/sections/About";
 import MissionVision from "./components/sections/MissionVision";
 import CoreValues from "./components/sections/CoreValues";
 import OurStory from "./components/sections/OurStory";
+import Ecosystem from "./components/sections/Ecosystem";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <MissionVision />
         <CoreValues/>
         <OurStory/>
+        <Ecosystem/>
       </main>
     </div>
   );
