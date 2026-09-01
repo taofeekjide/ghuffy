@@ -67,6 +67,7 @@ export const ecosystemItems = [
       "Facials",
       "Pedicure & Manicure",
       "Bridal & Event Beauty",
+      "Body Polishing"
     ],
     delivery: "We Come to You Anywhere",
     destination: "https://www.instagram.com/ghuffy_beauty_home",
