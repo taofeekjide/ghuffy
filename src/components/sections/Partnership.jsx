@@ -14,8 +14,8 @@ const contactDetails = [
   {
     icon: Phone,
     label: "24-Hour Phone Line",
-    value: "+234 906 895 9576",
-    href: "tel:+2349068959576",
+    value: "+234 705 297 5224",
+    href: "tel:+2347052975224",
   },
   {
     icon: MapPin,

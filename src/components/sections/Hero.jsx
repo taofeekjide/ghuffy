@@ -1,7 +1,11 @@
 import { ArrowDown, Sparkles, Star } from "lucide-react";
 
 import Button from "../ui/Button";
-import {TikTokIcon, InstagramIcon, FacebookIcon} from "../ui/CustomSVGComponents";
+import {
+  TikTokIcon,
+  InstagramIcon,
+  FacebookIcon,
+} from "../ui/CustomSVGComponents";
 import { ghuffyBrand } from "../../data/ghuffyData";
 
 function Hero() {
@@ -125,17 +129,35 @@ function Hero() {
               "
             >
               <p>Our Socials:</p>
-                <a href="https://www.instagram.com/ghuffy/">
-                  <span className="text-ghuffy-lime"><InstagramIcon /></span>
-                </a>
-                <span className="mx-2">|</span>
-                <a href="https://www.tiktok.com/@ghuffysubbrands">
-                  <span className="text-ghuffy-lime"><TikTokIcon /></span>
-                </a>
-                <span className="mx-2">|</span>
-                <a href="https://www.facebook.com/share/1GPnuRYQ13/">
-                  <span className="text-ghuffy-lime"><FacebookIcon /></span>
-                </a>
+              <a
+                href="https://www.instagram.com/ghuffy__"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="text-ghuffy-lime">
+                  <InstagramIcon />
+                </span>
+              </a>
+              <span className="mx-2">|</span>
+              <a
+                href="https://www.tiktok.com/@ghuffysubbrands"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="text-ghuffy-lime">
+                  <TikTokIcon />
+                </span>
+              </a>
+              <span className="mx-2">|</span>
+              <a
+                href="https://www.facebook.com/share/1GPnuRYQ13/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="text-ghuffy-lime">
+                  <FacebookIcon />
+                </span>
+              </a>
             </div>
 
             <div
