@@ -48,8 +48,8 @@ export const ecosystemItems = [
     shortName: "Household Store",
     description: "Supplying Homes & Businesses with Excellence",
     images: [
-      "/images/ecosystem/household-1.JPG",
-      "/images/ecosystem/household-2.JPG",
+      "/images/ecosystem/household-1.jpg",
+      "/images/ecosystem/household-2.jpg",
     ],
     productsServices: [
       "Household Essentials",
