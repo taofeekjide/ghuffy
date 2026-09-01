@@ -108,53 +108,55 @@ function Partnership() {
         </div>
 
         {/* Contact information */}
-        <div className="mt-6">
-          <SectionHeader
-            eyebrow="Connect With Us"
-            title={
-              <>
-                We're Easy <span className="text-ghuffy-lime">To Reach.</span>
-              </>
-            }
-            description="Whether you're a customer, partner, supplier, or collaborator, our team is ready to hear from you."
-          />
+        <section id="contact">
+          <div className="mt-6">
+            <SectionHeader
+              eyebrow="Connect With Us"
+              title={
+                <>
+                  We're Easy <span className="text-ghuffy-lime">To Reach.</span>
+                </>
+              }
+              description="Whether you're a customer, partner, supplier, or collaborator, our team is ready to hear from you."
+            />
 
-          <div className="grid gap-4 md:grid-cols-3">
-            {contactDetails.map((contact) => {
-              const Icon = contact.icon;
+            <div className="grid gap-4 md:grid-cols-3">
+              {contactDetails.map((contact) => {
+                const Icon = contact.icon;
 
-              return (
-                <GlassCard
-                  key={contact.label}
-                  className="group p-6 transition-all duration-300 hover:border-ghuffy-lime/20"
-                >
-                  <div className="flex items-start justify-between">
-                    <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/[0.08] bg-white/[0.03] transition-all duration-300 group-hover:border-ghuffy-lime/25 group-hover:bg-ghuffy-lime/[0.05]">
-                      <Icon size={18} className="text-ghuffy-lime" />
+                return (
+                  <GlassCard
+                    key={contact.label}
+                    className="group p-6 transition-all duration-300 hover:border-ghuffy-lime/20"
+                  >
+                    <div className="flex items-start justify-between">
+                      <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/[0.08] bg-white/[0.03] transition-all duration-300 group-hover:border-ghuffy-lime/25 group-hover:bg-ghuffy-lime/[0.05]">
+                        <Icon size={18} className="text-ghuffy-lime" />
+                      </div>
+
+                      {contact.label === "24-Hour Phone Line" && (
+                        <Clock3 size={15} className="text-ghuffy-lime/50" />
+                      )}
                     </div>
 
-                    {contact.label === "24-Hour Phone Line" && (
-                      <Clock3 size={15} className="text-ghuffy-lime/50" />
-                    )}
-                  </div>
+                    <div className="mt-7">
+                      <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-ghuffy-muted">
+                        {contact.label}
+                      </p>
 
-                  <div className="mt-7">
-                    <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-ghuffy-muted">
-                      {contact.label}
-                    </p>
-
-                    <a
-                      href={contact.href}
-                      className="mt-2 block text-base font-bold text-ghuffy-white transition-colors duration-300 group-hover:text-ghuffy-lime"
-                    >
-                      {contact.value} (Click to reach out)
-                    </a>
-                  </div>
-                </GlassCard>
-              );
-            })}
+                      <a
+                        href={contact.href}
+                        className="mt-2 block text-base font-bold text-ghuffy-white transition-colors duration-300 group-hover:text-ghuffy-lime"
+                      >
+                        {contact.value} (Click to reach out)
+                      </a>
+                    </div>
+                  </GlassCard>
+                );
+              })}
+            </div>
           </div>
-        </div>
+        </section>
       </div>
     </section>
   );
