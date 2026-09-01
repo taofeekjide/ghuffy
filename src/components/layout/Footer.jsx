@@ -18,8 +18,8 @@ const footerNavigation = [
 const contactLinks = [
   {
     icon: Phone,
-    label: "+234 906 895 9576",
-    href: "tel:+2349068959576",
+    label: "+234 705 297 5224",
+    href: "tel:+2347052975224",
   },
   {
     icon: Mail,
